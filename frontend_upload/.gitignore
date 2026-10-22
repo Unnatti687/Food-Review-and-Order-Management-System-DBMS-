@@ -1,0 +1,18 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# Local deployment metadata
+.vercel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
